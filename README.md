@@ -1,4 +1,4 @@
-# 20 CI-CD
+# 20 CI-CD and Github Actions
 
 ## User Story
 ```md
@@ -12,7 +12,7 @@ SO THAT the application is constantly updated when major releases are made to th
 ## Infrastructure setup
 > * In this code, Setup "Deploy" YAML to use a variable from Render DEPLOY_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
 >
-> * In Render https://dashboard.render.com/, create a 'Static Site'
+> * In Render https://dashboard.render.com/, create a 'Web Service'
 >
 > * In the project Settings, copy the 'Deploy Hook'
 >
@@ -21,7 +21,7 @@ SO THAT the application is constantly updated when major releases are made to th
 > * In this project's GitHub repo, go to settings. Go to Secrets and variables - Action
 >
 > * Create a Repository secret and name it 'RENDER_DEPLOY_HOOK_URL' and paste the value from Render 'Deploy Hook'
-### GitHub Repo 
+### GitHub Repo https://github.com/Nebbs82/Challenge-20-CI-CD-and-Github-Actions.git
 * In this code, Setup "Deploy" YAML to use a variable from Render DEPLOY_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
 * In this project's GitHub repo, go to settings. Go to Secrets and variables - Action
 * Create a Repository secret and name it 'RENDER_DEPLOY_HOOK_URL' and paste the value from Render 'Deploy Hook'
@@ -29,7 +29,7 @@ SO THAT the application is constantly updated when major releases are made to th
 * yaml
   * deploy - will deploy to render
   * test - will be for test with Cypress to be executed
-### Render 
+### Render https://challenge-20-ci-cd-and-github-actions.onrender.com
 * In Render 'https://dashboard.render.com/', create a 'Static Site'
   * Publish Directory set as './server/dist'
   * In the project Settings, copy the 'Deploy Hook'
