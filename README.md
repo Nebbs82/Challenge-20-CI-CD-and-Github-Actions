@@ -12,7 +12,7 @@ SO THAT the application is constantly updated when major releases are made to th
 ## Infrastructure setup
 > * In this code, Setup "Deploy" YAML to use a variable from Render DEPLOY_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
 >
-> * In Render https://dashboard.render.com/, create a 'Static Site'
+> * In Render https://dashboard.render.com/, create a 'Web Service'
 >
 > * In the project Settings, copy the 'Deploy Hook'
 >
